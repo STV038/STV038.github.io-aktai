@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <React.Fragment>
       <Logo />
-      <nav className="navbar fixed-top bg-black d-flex justify-content-center text-center">
+      <nav className="navbar fixed-top bg-black d-flex justify-content-center text-center margin-nav">
         <h6 className="item navbar-brand text-light mx-5">
           Services
         </h6>

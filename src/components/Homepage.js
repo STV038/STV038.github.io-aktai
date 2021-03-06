@@ -6,7 +6,7 @@ const Homepage = () => {
     <div className="App bg-aktai">
       <Container>
         <Row className="justify-content-center aktai-title">
-          <h1 className="header1 text-light mb-3">
+          <h1 className="text-light mb-3">
             <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
             <span
               style={{ marginLeft: '1rem', fontFamily: 'Anurati' }}
@@ -20,11 +20,11 @@ const Homepage = () => {
           <hr className="new1" />
         </Row>
         <Row className="justify-content-center">
-          <h6 className="text-light subtext">
+          <p className="text-light subtext">
             Contributing to the development and integration of
             decentralized technologies in society and current
             financial systems
-          </h6>
+          </p>
         </Row>
       </Container>
     </div>
