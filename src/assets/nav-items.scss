@@ -1,0 +1,40 @@
+.menubar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  width: 100%;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  padding-inline-start: 0;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.menu-items-item {
+  display: flex;
+}
+
+.logo {
+  font-family: 'Anurati';
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  margin-left: 2rem;
+  //   margin-top: 3rem;
+  //   margin-left: 3rem;
+  //   margin-bottom: 3rem;
+  //   margin-right: 3rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
