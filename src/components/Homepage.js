@@ -56,6 +56,174 @@ const Homepage = () => {
                   financial systems
                 </p>
               </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <h1 className="text-light mb-3">
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
+                  <span
+                    style={{
+                      marginLeft: '1rem',
+                      fontFamily: 'Anurati',
+                    }}
+                  >
+                    V
+                  </span>
+                  entures
+                </h1>
+              </Row>
+              <Row>
+                <hr className="new1" />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Row>
             </div>
           )}
         </Transition>
