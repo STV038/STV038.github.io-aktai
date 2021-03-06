@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/STV038.github.io-aktai/static/css/main.19e33e62.chunk.css",
-    "main.js": "/STV038.github.io-aktai/static/js/main.3a335bbd.chunk.js",
-    "main.js.map": "/STV038.github.io-aktai/static/js/main.3a335bbd.chunk.js.map",
+    "main.css": "/STV038.github.io-aktai/static/css/main.65caaa22.chunk.css",
+    "main.js": "/STV038.github.io-aktai/static/js/main.7ed9cc9d.chunk.js",
+    "main.js.map": "/STV038.github.io-aktai/static/js/main.7ed9cc9d.chunk.js.map",
     "runtime-main.js": "/STV038.github.io-aktai/static/js/runtime-main.4ca8ca0e.js",
     "runtime-main.js.map": "/STV038.github.io-aktai/static/js/runtime-main.4ca8ca0e.js.map",
     "static/css/2.2295ac45.chunk.css": "/STV038.github.io-aktai/static/css/2.2295ac45.chunk.css",
-    "static/js/2.d12affe6.chunk.js": "/STV038.github.io-aktai/static/js/2.d12affe6.chunk.js",
-    "static/js/2.d12affe6.chunk.js.map": "/STV038.github.io-aktai/static/js/2.d12affe6.chunk.js.map",
+    "static/js/2.ab9efea8.chunk.js": "/STV038.github.io-aktai/static/js/2.ab9efea8.chunk.js",
+    "static/js/2.ab9efea8.chunk.js.map": "/STV038.github.io-aktai/static/js/2.ab9efea8.chunk.js.map",
     "static/js/3.dd0192eb.chunk.js": "/STV038.github.io-aktai/static/js/3.dd0192eb.chunk.js",
     "static/js/3.dd0192eb.chunk.js.map": "/STV038.github.io-aktai/static/js/3.dd0192eb.chunk.js.map",
     "index.html": "/STV038.github.io-aktai/index.html",
     "static/css/2.2295ac45.chunk.css.map": "/STV038.github.io-aktai/static/css/2.2295ac45.chunk.css.map",
-    "static/css/main.19e33e62.chunk.css.map": "/STV038.github.io-aktai/static/css/main.19e33e62.chunk.css.map",
-    "static/js/2.d12affe6.chunk.js.LICENSE.txt": "/STV038.github.io-aktai/static/js/2.d12affe6.chunk.js.LICENSE.txt",
+    "static/css/main.65caaa22.chunk.css.map": "/STV038.github.io-aktai/static/css/main.65caaa22.chunk.css.map",
+    "static/js/2.ab9efea8.chunk.js.LICENSE.txt": "/STV038.github.io-aktai/static/js/2.ab9efea8.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/STV038.github.io-aktai/static/media/anurati-regular.ada0eaa4.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.4ca8ca0e.js",
     "static/css/2.2295ac45.chunk.css",
-    "static/js/2.d12affe6.chunk.js",
-    "static/css/main.19e33e62.chunk.css",
-    "static/js/main.3a335bbd.chunk.js"
+    "static/js/2.ab9efea8.chunk.js",
+    "static/css/main.65caaa22.chunk.css",
+    "static/js/main.7ed9cc9d.chunk.js"
   ]
 }
