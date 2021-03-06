@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import Logo from '../assets/Logo';
 import '../assets/nav-items.scss';
 import '../assets/header.scss';
@@ -11,7 +13,11 @@ export default function Header() {
         <h6 className="item navbar-brand text-light mx-5">
           Services
         </h6>
-        <h6 className="item navbar-brand text-light mx-5">Vision</h6>
+        <h6 className="item navbar-brand text-light mx-5">
+          <NavLink to="/vision" exact>
+            Vision
+          </NavLink>
+        </h6>
         <h6 className="item navbar-brand text-light mx-5">About</h6>
       </nav>
     </React.Fragment>

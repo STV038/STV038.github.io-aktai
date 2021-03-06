@@ -1,9 +1,28 @@
 .item {
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .margin-nav {
   margin-top: 1rem;
+}
+
+.item a {
+  background: transparent;
+  border-color: #292929;
+  color: inherit;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.item a:hover,
+.item a:active,
+.item a.active {
+  background: transparent;
+  border-color: #292929;
+  color: inherit;
+  border: 1px solid transparent;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
