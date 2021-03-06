@@ -40,7 +40,7 @@ function App() {
     <Router>
       <Header />
       <main>{routes}</main>
-      <Particles />
+      {/* <Particles /> */}
     </Router>
   );
 }

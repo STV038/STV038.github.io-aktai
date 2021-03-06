@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Container, Row } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
+import Particles from './Particles';
 import '../assets/transition.scss';
 
 const duration = 2000;
@@ -44,7 +45,20 @@ const Vision = () => {
               <Row className="justify-content-center">
                 <p className="text-light subtext">
                   Here we will document our stuff with respect to the
-                  services and products that we want to offer.
+                  services and products that we want to offer. Here we
+                  will document our stuff with respect to the services
+                  and products that we want to offer.
+                </p>
+              </Row>
+              <Row className="justify-content-center">
+                <Particles />
+              </Row>
+              <Row className="justify-content-center">
+                <p className="text-light subtext text-under-particle">
+                  Here we will document our stuff with respect to the
+                  services and products that we want to offer. Here we
+                  will document our stuff with respect to the services
+                  and products that we want to offer.
                 </p>
               </Row>
             </div>

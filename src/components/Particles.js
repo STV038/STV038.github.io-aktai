@@ -4,7 +4,7 @@ import Particles from 'react-tsparticles';
 
 class ParticlesApp extends React.Component {
   render() {
-    return ReactDOM.createPortal(
+    return (
       <Particles
         id="tsparticles"
         options={{
@@ -83,8 +83,7 @@ class ParticlesApp extends React.Component {
           },
           detectRetina: true,
         }}
-      />,
-      document.getElementById('particle-background'),
+      />
     );
   }
 }

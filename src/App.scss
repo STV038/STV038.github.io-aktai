@@ -7,12 +7,25 @@
 
 #tsparticles {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 0;
-  bottom: 0px;
   width: 100%;
-  height: 40%;
+  height: 45%;
 }
+
+// #tsparticles {
+//   width: 100%;
+//   height: 40%;
+//   display: flex;
+//   align-items: center;
+//   position: fixed;
+//   top: 60%;
+//   left: 0;
+//   background: #000000;
+//   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+//   padding: 0 1rem;
+//   z-index: 5;
+// }
 
 .bg-aktai {
   //   background: url('../../assets//images/pages/Capture.PNG') no-repeat
@@ -57,6 +70,10 @@ h6 {
   padding-top: 13rem;
 }
 
+.text-under-particle {
+  margin-top: 45rem;
+}
+
 @media (max-width: 768px) {
   .aktai-title {
     padding-top: 8rem;
@@ -68,5 +85,9 @@ h6 {
 
   .subtext {
     width: 82%;
+  }
+
+  .text-under-particle {
+    margin-top: 20rem;
   }
 }
