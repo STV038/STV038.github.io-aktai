@@ -8,15 +8,11 @@ export default function Header() {
     <React.Fragment>
       <Logo />
       <nav className="navbar fixed-top bg-black d-flex justify-content-center text-center">
-        <p className="item navbar-brand text-light flex-fill">
+        <h6 className="item navbar-brand text-light mx-5">
           Services
-        </p>
-        <p className="item navbar-brand text-light flex-fill">
-          Vision
-        </p>
-        <p className="item navbar-brand text-light flex-fill">
-          About
-        </p>
+        </h6>
+        <h6 className="item navbar-brand text-light mx-5">Vision</h6>
+        <h6 className="item navbar-brand text-light mx-5">About</h6>
       </nav>
     </React.Fragment>
   );
