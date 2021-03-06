@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import './nav-items.scss';
+import './logo.scss';
 
 const Logo = () => {
   return (
-    <Link to="/home">
+    <Link to="/">
       <h1 className="logo">A</h1>
     </Link>
   );

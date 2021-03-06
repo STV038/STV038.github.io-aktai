@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Container, Row } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
@@ -20,7 +20,7 @@ const transitionStyles = {
   exited: { opacity: 0 },
 };
 
-const Homepage = () => {
+const About = () => {
   return (
     <div className="App">
       <Container className="content-position">
@@ -34,16 +34,7 @@ const Homepage = () => {
             >
               <Row className="justify-content-center">
                 <h1 className="text-light mb-3">
-                  <span style={{ fontFamily: 'Anurati' }}>A</span>ktai
-                  <span
-                    style={{
-                      marginLeft: '1rem',
-                      fontFamily: 'Anurati',
-                    }}
-                  >
-                    V
-                  </span>
-                  entures
+                  <span style={{ fontFamily: 'Anurati' }}>A</span>bout
                 </h1>
               </Row>
               <Row>
@@ -51,9 +42,7 @@ const Homepage = () => {
               </Row>
               <Row className="justify-content-center">
                 <p className="text-light subtext">
-                  Contributing to the development and integration of
-                  decentralized technologies in society and current
-                  financial systems
+                  This is where we will list our competences.
                 </p>
               </Row>
             </div>
@@ -64,4 +53,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default About;

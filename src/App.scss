@@ -53,13 +53,20 @@ h6 {
 //     justify-content: space-between;
 //   }
 // }
+.content-position {
+  padding-top: 13rem;
+}
 
-@media (max-width: 468px) {
+@media (max-width: 768px) {
   .aktai-title {
     padding-top: 8rem;
   }
 
+  .content-position {
+    padding-top: 8rem;
+  }
+
   .subtext {
-    width: 80%;
+    width: 82%;
   }
 }

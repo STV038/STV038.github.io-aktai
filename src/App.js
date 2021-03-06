@@ -10,6 +10,8 @@ import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Particles from './components/Particles';
 import Vision from './components/Vision';
+import Services from './components/Services';
+import About from './components/About';
 
 import './App.scss';
 
@@ -21,6 +23,12 @@ function App() {
       </Route>
       <Route path="/vision" exact>
         <Vision />
+      </Route>
+      <Route path="/about" exact>
+        <About />
+      </Route>
+      <Route path="/services" exact>
+        <Services />
       </Route>
       <Route>
         <Redirect to="/" />

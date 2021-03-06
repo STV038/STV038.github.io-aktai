@@ -31,3 +31,9 @@
     margin-right: auto !important;
   }
 }
+
+@media (min-width: 768px) {
+  .home-switch {
+    display: none;
+  }
+}
