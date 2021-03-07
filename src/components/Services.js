@@ -45,9 +45,11 @@ const Services = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center">
-              <Col sm="12" lg="6" className="pb-3">
+              <Col sm="12" lg="4" className="pb-3">
                 <Card body>
-                  <CardTitle tag="h5">Service1</CardTitle>
+                  <CardTitle tag="h5">
+                    Operating in crypto asset space
+                  </CardTitle>
                   <CardText>
                     Here we will document our stuff with respect to
                     the services and products that we want to offer.
@@ -58,9 +60,11 @@ const Services = () => {
                   </CardText>
                 </Card>
               </Col>
-              <Col sm="12" lg="6">
+              <Col sm="12" lg="4">
                 <Card body>
-                  <CardTitle tag="h5">Service1</CardTitle>
+                  <CardTitle tag="h5">
+                    Entering crypto asset space
+                  </CardTitle>
                   <CardText>
                     Here we will document our stuff with respect to
                     the services and products that we want to offer.
@@ -68,6 +72,52 @@ const Services = () => {
                     accounting, icon deals, handshake icon risk,
                     governance, icon integration, symbiosis or
                     something
+                  </CardText>
+                </Card>
+              </Col>
+            </Row>
+            <Row className="justify-content-center">
+              <Col sm="12" lg="4" className="pb-3">
+                <Card body>
+                  <CardTitle tag="h5">
+                    Risk Management, Risk & Controls?
+                  </CardTitle>
+                  <CardText>
+                    Business Process, integration, etc. Control
+                    frameworks etc.
+                  </CardText>
+                </Card>
+              </Col>
+              <Col sm="12" lg="4">
+                <Card body>
+                  <CardTitle tag="h5">
+                    Financial Reporting & Tokeneconomics
+                  </CardTitle>
+                  <CardText>
+                    Some stuff about auditing, financial reporting,
+                    financials, etc.
+                  </CardText>
+                </Card>
+              </Col>
+            </Row>
+            <Row className="justify-content-center">
+              <Col sm="12" lg="4" className="pb-3">
+                <Card body>
+                  <CardTitle tag="h5">Strategy, maturity</CardTitle>
+                  <CardText>
+                    Business Process, integration, etc. Control
+                    frameworks etc.
+                  </CardText>
+                </Card>
+              </Col>
+              <Col sm="12" lg="4">
+                <Card body>
+                  <CardTitle tag="h5">
+                    Regulation, Compliance & Tax
+                  </CardTitle>
+                  <CardText>
+                    Some stuff about auditing, financial reporting,
+                    financials, etc.
                   </CardText>
                 </Card>
               </Col>
