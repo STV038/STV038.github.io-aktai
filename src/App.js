@@ -8,7 +8,7 @@ import {
 import { Container } from 'reactstrap';
 import Header from './components/Header';
 import Homepage from './components/Homepage';
-import Particles from './components/Particles';
+// import ParticlesFooter from './assets/ParticlesFooter';
 import Vision from './components/Vision';
 import Services from './components/Services';
 import Team from './components/Team';
@@ -39,13 +39,9 @@ function App() {
   return (
     <Router>
       <Header />
-      <Container
-        className="themed-container content-position"
-        fluid={true}
-      >
+      <Container className="themed-container content-position">
         <main>{routes}</main>
       </Container>
-      {/* <Particles /> */}
     </Router>
   );
 }

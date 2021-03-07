@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, Row } from 'reactstrap';
+import { Row } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
 import ParticlesFooter from '../assets/ParticlesFooter';
@@ -50,9 +50,20 @@ const Services = () => {
           </div>
         )}
       </Transition>
-      <nav class="navbar fixed-bottom particle-footer">
-        <ParticlesFooter />
-      </nav>
+      <Transition in={true} appear={true} timeout={200}>
+        {(state) => (
+          <div
+            style={{
+              ...defaultStyle,
+              ...transitionStyles[state],
+            }}
+          >
+            <nav class="navbar fixed-bottom particle-footer">
+              <ParticlesFooter />
+            </nav>
+          </div>
+        )}
+      </Transition>
     </div>
   );
 };
