@@ -42,11 +42,28 @@ const Vision = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center">
-              <p className=" subtext">
-                Here we will document our stuff with respect to the
-                services and products that we want to offer. Here we
-                will document our stuff with respect to the services
-                and products that we want to offer.
+              <p>
+                Like it or not, but crypto assets and decentralized
+                finance are here to stay and have yet to take up a
+                significant spot in our financial systems. That isn't
+                to say that DeFi, like the entire crypto space, will
+                be faced with pullbacks and bear cycles; such
+                occurences are inherent to emergent markets. It is my
+                opinion however, that the crypto asset space is here
+                to stay and that the products that are being developed
+                on these decentralized technologies will completely
+                change the way we think about personal finance and
+                transacting with eachother. Imagine not using a bank
+                for your finances anymore, but instead using your
+                savings to generate money for you instead of your
+                bank's shareholders. Or using different service
+                providers to be able to invest in stocks, take out a
+                mortgage or loan, taking out an insurance, or the
+                simple act of sending money to people around the globe
+                without having a bank account to do so. Be the sole
+                owner of your entire finances and assets. And using
+                your finances and assets to increase{' '}
+                <strong>your</strong> wealth.
               </p>
             </Row>
           </div>
