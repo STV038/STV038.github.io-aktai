@@ -68,35 +68,23 @@ const Team = () => {
               ...transitionStyles[state],
             }}
           >
-            <Row className="justify-content-center">
+            <Row className="justify-content-center text-center">
               <Col sm="12" lg="4" className="mt-5">
-                <Row className="justify-content-center text-center">
-                  <h5>Finance & Investments</h5>
-                </Row>
-                <Row className="justify-content-center text-center">
-                  <p className=" mb-3">
-                    FinRep, Accounting, Deals, M&A
-                  </p>
-                </Row>
+                <h5>Finance & Investments</h5>
+                <p className=" mb-3">
+                  FinRep, Accounting, Deals, M&A.
+                </p>
               </Col>
               <Col sm="12" lg="4" className="mt-5">
-                <Row className="justify-content-center">
-                  <h5>Governance, Risk & Compliance</h5>
-                </Row>
-                <Row className="justify-content-center">
-                  <p className=" mb-3">
-                    Risk, Controls, Internal Governance, Frameworks,
-                    etc.
-                  </p>
-                </Row>
+                <h5>Governance, Risk & Compliance</h5>
+                <p className=" mb-3">
+                  Risk, Controls, Internal Governance, Frameworks,
+                  etc.
+                </p>
               </Col>
               <Col sm="12" lg="4" className="mt-5">
-                <Row className="justify-content-center">
-                  <h5>Research</h5>
-                </Row>
-                <Row className="justify-content-center">
-                  <p className=" mb-3">Research and Academia</p>
-                </Row>
+                <h5>Research</h5>
+                <p className=" mb-3">Research and Academia</p>
               </Col>
             </Row>
           </div>
