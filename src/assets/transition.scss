@@ -6,3 +6,15 @@
   opacity: 1;
   transition: opacity 0.5s ease-in;
 }
+
+#slide {
+  left: -100px;
+  width: 100px;
+  height: 100px;
+  transition: 1s;
+}
+
+.wrapper:hover #slide {
+  transition: 1s;
+  left: 0;
+}

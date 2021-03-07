@@ -9,26 +9,26 @@ export default function Header() {
     <React.Fragment>
       <Logo />
       <nav className="navbar fixed-top bg-black d-flex justify-content-center text-center margin-nav">
-        <h6 className="home-switch item navbar-brand text-light mx-5">
+        <p className="home-switch item navbar-brand  mx-5">
           <NavLink to="/" exact>
             Home
           </NavLink>
-        </h6>
-        <h6 className="item navbar-brand text-light mx-5">
+        </p>
+        <p className="item navbar-brand  mx-5">
           <NavLink to="/services" exact>
             Services
           </NavLink>
-        </h6>
-        <h6 className="item navbar-brand text-light mx-5">
+        </p>
+        <p className="item navbar-brand  mx-5">
           <NavLink to="/vision" exact>
             Vision
           </NavLink>
-        </h6>
-        <h6 className="item navbar-brand text-light mx-5">
-          <NavLink to="/about" exact>
-            About
+        </p>
+        <p className="item navbar-brand  mx-5">
+          <NavLink to="/team" exact>
+            Team
           </NavLink>
-        </h6>
+        </p>
       </nav>
     </React.Fragment>
   );

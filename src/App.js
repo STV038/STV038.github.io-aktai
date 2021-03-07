@@ -5,13 +5,13 @@ import {
   Redirect,
   Switch,
 } from 'react-router-dom';
-
+import { Container } from 'reactstrap';
 import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Particles from './components/Particles';
 import Vision from './components/Vision';
 import Services from './components/Services';
-import About from './components/About';
+import Team from './components/Team';
 
 import './App.scss';
 
@@ -24,8 +24,8 @@ function App() {
       <Route path="/vision" exact>
         <Vision />
       </Route>
-      <Route path="/about" exact>
-        <About />
+      <Route path="/team" exact>
+        <Team />
       </Route>
       <Route path="/services" exact>
         <Services />
@@ -39,7 +39,12 @@ function App() {
   return (
     <Router>
       <Header />
-      <main>{routes}</main>
+      <Container
+        className="themed-container content-position"
+        fluid={true}
+      >
+        <main>{routes}</main>
+      </Container>
       {/* <Particles /> */}
     </Router>
   );
