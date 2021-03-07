@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Row, Col } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
-import ParticlesFooter from '../assets/ParticlesFooter';
 import '../assets/transition.scss';
 
 const duration = 2000;
@@ -38,7 +37,7 @@ const Team = () => {
                 eam
               </h1>
             </Row>
-            <Row>
+            <Row className="mb-5">
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center text-center">
@@ -57,17 +56,6 @@ const Team = () => {
                 / professional bodies, investors)
               </p>
             </Row>
-          </div>
-        )}
-      </Transition>
-      <Transition in={true} appear={true} timeout={1000}>
-        {(state) => (
-          <div
-            style={{
-              ...defaultStyle,
-              ...transitionStyles[state],
-            }}
-          >
             <Row className="justify-content-center text-center">
               <Col sm="12" lg="4" className="mt-5">
                 <h5>Finance & Investments</h5>
@@ -87,20 +75,6 @@ const Team = () => {
                 <p className=" mb-3">Research and Academia</p>
               </Col>
             </Row>
-          </div>
-        )}
-      </Transition>
-      <Transition in={true} appear={true} timeout={200}>
-        {(state) => (
-          <div
-            style={{
-              ...defaultStyle,
-              ...transitionStyles[state],
-            }}
-          >
-            <nav class="navbar fixed-bottom particle-footer">
-              <ParticlesFooter />
-            </nav>
           </div>
         )}
       </Transition>

@@ -47,7 +47,7 @@ class ParticlesApp extends React.Component {
             },
             links: {
               color: '#ffffff',
-              distance: 150,
+              distance: 80,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -57,7 +57,7 @@ class ParticlesApp extends React.Component {
             },
             move: {
               direction: 'none',
-              enable: true,
+              enable: false,
               outMode: 'bounce',
               random: false,
               speed: 1.6,
@@ -74,7 +74,7 @@ class ParticlesApp extends React.Component {
               value: 0.5,
             },
             shape: {
-              type: 'circle',
+              type: 'polygon',
             },
             size: {
               random: true,
