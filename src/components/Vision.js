@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Container, Row } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
+import ParticlesFooter from '../assets/ParticlesFooter';
 import '../assets/transition.scss';
 
 const duration = 2000;
@@ -51,6 +52,9 @@ const Vision = () => {
           </div>
         )}
       </Transition>
+      <nav class="navbar fixed-bottom particle-footer">
+        <ParticlesFooter />
+      </nav>
     </div>
   );
 };
