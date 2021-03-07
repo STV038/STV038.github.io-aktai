@@ -41,20 +41,22 @@ const Team = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center text-center">
-              <p className="mb-3">
-                Aktai Ventures consists of veterans in the space of
-                Finance, IT Risk & Compliance and Regulation. The goal
-                of listing the core competences below is not to
-                illustrate in what areas we can offer services. This
-                below section will serve as a substiantiation on{' '}
-                <strong>why</strong> we can offer the services that we
-                offer. For example, we can also say something about
-                crypto integration into conventional business
-                processes. Or, strategy in terms of crypto adoption /
-                integration. Perhaps also say something about our vast
-                network spanning the areas below (academia, regulatory
-                / professional bodies, investors)
-              </p>
+              <Col sm="12" lg="6">
+                <p className="mb-3">
+                  Aktai Ventures consists of veterans in the space of
+                  Finance, IT Risk & Compliance and Regulation. The
+                  goal of listing the core competences below is not to
+                  illustrate in what areas we can offer services. This
+                  below section will serve as a substiantiation on{' '}
+                  <strong>why</strong> we can offer the services that
+                  we offer. For example, we can also say something
+                  about crypto integration into conventional business
+                  processes. Or, strategy in terms of crypto adoption
+                  / integration. Perhaps also say something about our
+                  vast network spanning the areas below (academia,
+                  regulatory / professional bodies, investors)
+                </p>
+              </Col>
             </Row>
             <Row className="justify-content-center text-center">
               <Col sm="12" lg="4" className="mt-5">

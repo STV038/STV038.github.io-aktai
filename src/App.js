@@ -39,7 +39,10 @@ function App() {
   return (
     <Router>
       <Header />
-      <Container className="themed-container content-position">
+      <Container
+        className="themed-container content-position"
+        fluid={true}
+      >
         <main>{routes}</main>
       </Container>
     </Router>
