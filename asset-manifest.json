@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/STV038.github.io-aktai/static/css/main.13c5edf2.chunk.css",
-    "main.js": "/STV038.github.io-aktai/static/js/main.ca405922.chunk.js",
-    "main.js.map": "/STV038.github.io-aktai/static/js/main.ca405922.chunk.js.map",
-    "runtime-main.js": "/STV038.github.io-aktai/static/js/runtime-main.2d69bbc2.js",
-    "runtime-main.js.map": "/STV038.github.io-aktai/static/js/runtime-main.2d69bbc2.js.map",
+    "main.css": "/STV038.github.io-aktai/static/css/main.3c745985.chunk.css",
+    "main.js": "/STV038.github.io-aktai/static/js/main.a061834e.chunk.js",
+    "main.js.map": "/STV038.github.io-aktai/static/js/main.a061834e.chunk.js.map",
+    "runtime-main.js": "/STV038.github.io-aktai/static/js/runtime-main.36126481.js",
+    "runtime-main.js.map": "/STV038.github.io-aktai/static/js/runtime-main.36126481.js.map",
     "static/css/2.2295ac45.chunk.css": "/STV038.github.io-aktai/static/css/2.2295ac45.chunk.css",
-    "static/js/2.13aa0a3d.chunk.js": "/STV038.github.io-aktai/static/js/2.13aa0a3d.chunk.js",
-    "static/js/2.13aa0a3d.chunk.js.map": "/STV038.github.io-aktai/static/js/2.13aa0a3d.chunk.js.map",
-    "static/js/3.1211c681.chunk.js": "/STV038.github.io-aktai/static/js/3.1211c681.chunk.js",
-    "static/js/3.1211c681.chunk.js.map": "/STV038.github.io-aktai/static/js/3.1211c681.chunk.js.map",
+    "static/js/2.c82e5867.chunk.js": "/STV038.github.io-aktai/static/js/2.c82e5867.chunk.js",
+    "static/js/2.c82e5867.chunk.js.map": "/STV038.github.io-aktai/static/js/2.c82e5867.chunk.js.map",
+    "static/js/3.aaec7c77.chunk.js": "/STV038.github.io-aktai/static/js/3.aaec7c77.chunk.js",
+    "static/js/3.aaec7c77.chunk.js.map": "/STV038.github.io-aktai/static/js/3.aaec7c77.chunk.js.map",
     "index.html": "/STV038.github.io-aktai/index.html",
     "static/css/2.2295ac45.chunk.css.map": "/STV038.github.io-aktai/static/css/2.2295ac45.chunk.css.map",
-    "static/css/main.13c5edf2.chunk.css.map": "/STV038.github.io-aktai/static/css/main.13c5edf2.chunk.css.map",
-    "static/js/2.13aa0a3d.chunk.js.LICENSE.txt": "/STV038.github.io-aktai/static/js/2.13aa0a3d.chunk.js.LICENSE.txt",
+    "static/css/main.3c745985.chunk.css.map": "/STV038.github.io-aktai/static/css/main.3c745985.chunk.css.map",
+    "static/js/2.c82e5867.chunk.js.LICENSE.txt": "/STV038.github.io-aktai/static/js/2.c82e5867.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/STV038.github.io-aktai/static/media/anurati-regular.ada0eaa4.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d69bbc2.js",
+    "static/js/runtime-main.36126481.js",
     "static/css/2.2295ac45.chunk.css",
-    "static/js/2.13aa0a3d.chunk.js",
-    "static/css/main.13c5edf2.chunk.css",
-    "static/js/main.ca405922.chunk.js"
+    "static/js/2.c82e5867.chunk.js",
+    "static/css/main.3c745985.chunk.css",
+    "static/js/main.a061834e.chunk.js"
   ]
 }
