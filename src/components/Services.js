@@ -38,8 +38,11 @@ const Services = () => {
   const [isOpen1, setIsOpen1] = useState(false);
   const toggle1 = () => setIsOpen1(!isOpen1);
 
-  const [isOpen2, setIsOpen2] = useState(false);
-  const toggle2 = () => setIsOpen2(!isOpen2);
+  const [openLegal, setLegal] = useState(false);
+  const toggleLegal = () => setLegal(!openLegal);
+
+  const [openResearch, setResearch] = useState(false);
+  const toggleResearch = () => setResearch(!openResearch);
 
   return (
     <div>
@@ -60,36 +63,17 @@ const Services = () => {
             <Row className="mb-5">
               <hr className="new1" />
             </Row>
-            <Row className="justify-content-center">
-              <Col sm="12" lg="4" className="pb-3">
-                <Card body>
-                  <CardTitle tag="h5">
-                    Operating in crypto asset space
-                  </CardTitle>
-                  <CardText>
-                    Here we will document our stuff with respect to
-                    the services and products that we want to offer.
-                    Strategy, horse-chess piece icon finance and
-                    accounting, icon deals, handshake icon risk,
-                    governance, icon integration, symbiosis or
-                    something
-                  </CardText>
-                </Card>
-              </Col>
+            <Row className="justify-content-center text-center">
               <Col sm="12" lg="4">
-                <Card body>
-                  <CardTitle tag="h5">
-                    Entering crypto asset space
-                  </CardTitle>
-                  <CardText>
-                    Here we will document our stuff with respect to
-                    the services and products that we want to offer.
-                    Strategy, horse-chess piece icon finance and
-                    accounting, icon deals, handshake icon risk,
-                    governance, icon integration, symbiosis or
-                    something
-                  </CardText>
-                </Card>
+                <p className="mb-3">
+                  Whether you are already operating in the crypto
+                  space or looking to step into that space (e.g.
+                  governmental bodies, corporation, financial
+                  institutions), we can add comfort to that journey by
+                  leveraging our expertise and help you grow (crypto)
+                  or onboard decentralized technologies into your
+                  organization.
+                </p>
               </Col>
             </Row>
             <Row className="justify-content-center">
@@ -124,42 +108,52 @@ const Services = () => {
                     tag="h5"
                     className="expand-card"
                   >
-                    <div>Strategy, maturity</div>
+                    <div>Assessments & Due Diligence</div>
                     <FontAwesomeIcon icon={faChevronDown} id="icon" />
                   </CardTitle>
                   <Collapse isOpen={isOpen1}>
                     <CardText>
-                      Business Process, integration, etc. Control
-                      frameworks etc.
+                      Risk, Maturity assessments. (DeFi) Product
+                      assessments. Technology Risk Management
+                      professionals take a broader, more holistic view
+                      of the risk element. We concentrate on the
+                      strategic impact that technologies and new
+                      business models can have on your entire
+                      organization. We help you establish a governance
+                      framework that embraces disruptive technologies
+                      and encourages innovation while ensuring risks
+                      are identified and managed
                     </CardText>
                   </Collapse>
                 </Card>
               </Col>
-              <Col sm="12" lg="4">
+              <Col sm="12" lg="4" className="pb-3">
                 <Card body>
                   <CardTitle
                     tag="h5"
-                    onClick={toggle2}
+                    onClick={toggleLegal}
                     className="expand-card"
                   >
                     <div>Legal</div>
                     <FontAwesomeIcon icon={faChevronDown} id="icon" />
                   </CardTitle>
-                  <Collapse isOpen={isOpen2}>
+                  <Collapse isOpen={openLegal}>
                     <CardText>
                       The regulatory and technological landscape
                       surrounding crypto assets and blockchain is
                       ambigious, moving fast and still maturing.
                       Governments are struggling to interpret the
                       implications of this space, which means that
-                      regulations surrounding the development and use
-                      of decentralized technologies is still
-                      developing. Operating in such a world comes with
-                      multiple challenges, as future regulation might
-                      impact your business or governance model. We can
-                      help you face these challenges so that you may
-                      comply with current and future regulations and
-                      best practices.
+                      regulations surrounding the use of decentralized
+                      technologies is still developing. Operating in
+                      such a world comes with multiple challenges, as
+                      future regulation might impact your business or
+                      governance model. We can help you face these
+                      challenges so that you may comply with current
+                      and future regulations and demonstrate the
+                      implementation of best practices to regulatory
+                      bodies, investors and clients. We can help you
+                      with the following topics:
                       <ul>
                         <li>
                           Streamlining a business plan in light of the
@@ -177,15 +171,27 @@ const Services = () => {
                     </CardText>
                   </Collapse>
                 </Card>
-
+              </Col>
+            </Row>
+            <Row className="justify-content-center">
+              <Col sm="12" lg="4" className="pb-3">
                 <Card body>
-                  <CardTitle tag="h5">Research</CardTitle>
-                  <CardText>
-                    PhD research on smart contracts and comparative
-                    contract law. Research on Information Risk
-                    Management approaches for multi-party consensus
-                    machines.
-                  </CardText>
+                  <CardTitle
+                    onClick={toggleResearch}
+                    tag="h5"
+                    className="expand-card"
+                  >
+                    <div>Research</div>
+                    <FontAwesomeIcon icon={faChevronDown} id="icon" />
+                  </CardTitle>
+                  <Collapse isOpen={openResearch}>
+                    <CardText>
+                      PhD research on smart contracts and comparative
+                      contract law. Research on Information Risk
+                      Management approaches for multi-party consensus
+                      machines.
+                    </CardText>
+                  </Collapse>
                 </Card>
               </Col>
             </Row>
