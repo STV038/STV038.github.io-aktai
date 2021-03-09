@@ -1,9 +1,19 @@
 import * as React from 'react';
-import { Row, Col, Card, CardTitle, CardText } from 'reactstrap';
+import { useState } from 'react';
+import {
+  Row,
+  Col,
+  Card,
+  CardTitle,
+  CardText,
+  Collapse,
+} from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChessKnight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 import '../assets/transition.scss';
 
@@ -25,6 +35,12 @@ const transitionStyles = {
 
 // <FontAwesomeIcon icon={faChessKnight} size="3x" id="icon" />;
 const Services = () => {
+  const [isOpen1, setIsOpen1] = useState(false);
+  const toggle1 = () => setIsOpen1(!isOpen1);
+
+  const [isOpen2, setIsOpen2] = useState(false);
+  const toggle2 = () => setIsOpen2(!isOpen2);
+
   return (
     <div>
       <Transition in={true} appear={true} timeout={200}>
@@ -103,21 +119,72 @@ const Services = () => {
             <Row className="justify-content-center">
               <Col sm="12" lg="4" className="pb-3">
                 <Card body>
-                  <CardTitle tag="h5">Strategy, maturity</CardTitle>
-                  <CardText>
-                    Business Process, integration, etc. Control
-                    frameworks etc.
-                  </CardText>
+                  <CardTitle
+                    onClick={toggle1}
+                    tag="h5"
+                    className="expand-card"
+                  >
+                    <div>Strategy, maturity</div>
+                    <FontAwesomeIcon icon={faChevronDown} id="icon" />
+                  </CardTitle>
+                  <Collapse isOpen={isOpen1}>
+                    <CardText>
+                      Business Process, integration, etc. Control
+                      frameworks etc.
+                    </CardText>
+                  </Collapse>
                 </Card>
               </Col>
               <Col sm="12" lg="4">
                 <Card body>
-                  <CardTitle tag="h5">
-                    Regulation, Compliance & Tax
+                  <CardTitle
+                    tag="h5"
+                    onClick={toggle2}
+                    className="expand-card"
+                  >
+                    <div>Legal</div>
+                    <FontAwesomeIcon icon={faChevronDown} id="icon" />
                   </CardTitle>
+                  <Collapse isOpen={isOpen2}>
+                    <CardText>
+                      The regulatory and technological landscape
+                      surrounding crypto assets and blockchain is
+                      ambigious, moving fast and still maturing.
+                      Governments are struggling to interpret the
+                      implications of this space, which means that
+                      regulations surrounding the development and use
+                      of decentralized technologies is still
+                      developing. Operating in such a world comes with
+                      multiple challenges, as future regulation might
+                      impact your business or governance model. We can
+                      help you face these challenges so that you may
+                      comply with current and future regulations and
+                      best practices.
+                      <ul>
+                        <li>
+                          Streamlining a business plan in light of the
+                          relevant legal frameworks
+                        </li>
+                        <li>
+                          Preemptively identifying legal risks and
+                          help you address these
+                        </li>
+                        <li>
+                          Design and implement best practices to meet
+                          regulatory compliance.
+                        </li>
+                      </ul>
+                    </CardText>
+                  </Collapse>
+                </Card>
+
+                <Card body>
+                  <CardTitle tag="h5">Research</CardTitle>
                   <CardText>
-                    Some stuff about auditing, financial reporting,
-                    financials, etc.
+                    PhD research on smart contracts and comparative
+                    contract law. Research on Information Risk
+                    Management approaches for multi-party consensus
+                    machines.
                   </CardText>
                 </Card>
               </Col>

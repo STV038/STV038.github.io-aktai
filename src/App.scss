@@ -61,6 +61,16 @@ h4 {
   font-weight: 500;
 }
 
+ul {
+  margin-block-start: 1rem;
+  padding-inline-start: 2rem;
+}
+
+li {
+  list-style-type: circle;
+  margin-bottom: 1rem;
+}
+
 .aktai-title {
   padding-top: 13rem;
 }
@@ -70,15 +80,29 @@ h4 {
   text-align: center;
 }
 
+.expand-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.match-height {
+  .card {
+    height: calc(100%);
+  }
+}
+
 // main {
 //   margin-top: 5rem;
 // }
 
-// @media (min-width: 768px) {
-//   .main-header {
-//     justify-content: space-between;
-//   }
-// }
+@media (min-width: 768px) {
+  ul {
+    padding-inline-end: 10rem;
+  }
+}
+
 .content-position {
   padding-top: 13rem;
 }
