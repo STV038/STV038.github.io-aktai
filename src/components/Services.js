@@ -33,6 +33,11 @@ const transitionStyles = {
   exited: { opacity: 0 },
 };
 
+//advisory.kpmg.us/services/risk-assurance/internal-audit-enterprise-risk.html
+//advisory.kpmg.us/services/risk-assurance.html
+//advisory.kpmg.us/services/technology/emerging-technology-risk.html
+//advisory.kpmg.us/services/risk-assurance/it-audit-assurance.html
+
 // <FontAwesomeIcon icon={faChessKnight} size="3x" id="icon" />;
 const Services = () => {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -80,11 +85,18 @@ const Services = () => {
               <Col sm="12" lg="4" className="pb-3">
                 <Card body>
                   <CardTitle tag="h5">
-                    Risk Management, Risk & Controls?
+                    Risk Management, Risk & Controls? Road to
+                    assurance?
                   </CardTitle>
+
                   <CardText>
                     Business Process, integration, etc. Control
-                    frameworks etc.
+                    frameworks etc. Perhaps make a caroussel and focus
+                    on a couple of major topics. For instance 1
+                    caroussel has three columns. the first page is
+                    "Governance, Risk and Compliance ". This includes
+                    a couple of columns. For instance risk management,
+                    readiness assessments towards (assurance).
                   </CardText>
                 </Card>
               </Col>
@@ -102,7 +114,7 @@ const Services = () => {
             </Row>
             <Row className="justify-content-center">
               <Col sm="12" lg="4" className="pb-3">
-                <Card body>
+                <Card body className="match-height">
                   <CardTitle
                     onClick={toggle1}
                     tag="h5"
@@ -114,7 +126,11 @@ const Services = () => {
                   <Collapse isOpen={isOpen1}>
                     <CardText>
                       Risk, Maturity assessments. (DeFi) Product
-                      assessments. Technology Risk Management
+                      assessments. Take PAID network as example. We
+                      can help in identifying key risks arising from
+                      the use of your product and assess to what
+                      extent these risks are addressed. Key
+                      management, etc. etc. Technology Risk Management
                       professionals take a broader, more holistic view
                       of the risk element. We concentrate on the
                       strategic impact that technologies and new
@@ -134,7 +150,7 @@ const Services = () => {
                     onClick={toggleLegal}
                     className="expand-card"
                   >
-                    <div>Legal</div>
+                    <div>Regulation</div>
                     <FontAwesomeIcon icon={faChevronDown} id="icon" />
                   </CardTitle>
                   <Collapse isOpen={openLegal}>

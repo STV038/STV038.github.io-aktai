@@ -63,7 +63,7 @@ h4 {
 
 ul {
   margin-block-start: 1rem;
-  padding-inline-start: 2rem;
+  // padding-inline-start: 2rem;
 }
 
 li {
@@ -99,7 +99,7 @@ li {
 
 @media (min-width: 768px) {
   ul {
-    padding-inline-end: 10rem;
+    // padding-inline-end: 10rem;
   }
 }
 
@@ -134,17 +134,17 @@ li {
   }
 }
 
-@media (max-height: 545px) {
+@media (max-height: 645px) {
   #tsparticles {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 30%;
   }
 }
 
-@media (max-height: 365px) {
+@media (max-height: 400px) {
   #tsparticles {
     display: none;
   }
