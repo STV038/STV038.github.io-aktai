@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/STV038.github.io-aktai/static/css/main.3c745985.chunk.css",
-    "main.js": "/STV038.github.io-aktai/static/js/main.3f3f2238.chunk.js",
-    "main.js.map": "/STV038.github.io-aktai/static/js/main.3f3f2238.chunk.js.map",
+    "main.css": "/STV038.github.io-aktai/static/css/main.078ab3f7.chunk.css",
+    "main.js": "/STV038.github.io-aktai/static/js/main.55cc3781.chunk.js",
+    "main.js.map": "/STV038.github.io-aktai/static/js/main.55cc3781.chunk.js.map",
     "runtime-main.js": "/STV038.github.io-aktai/static/js/runtime-main.36126481.js",
     "runtime-main.js.map": "/STV038.github.io-aktai/static/js/runtime-main.36126481.js.map",
     "static/css/2.2295ac45.chunk.css": "/STV038.github.io-aktai/static/css/2.2295ac45.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.aaec7c77.chunk.js.map": "/STV038.github.io-aktai/static/js/3.aaec7c77.chunk.js.map",
     "index.html": "/STV038.github.io-aktai/index.html",
     "static/css/2.2295ac45.chunk.css.map": "/STV038.github.io-aktai/static/css/2.2295ac45.chunk.css.map",
-    "static/css/main.3c745985.chunk.css.map": "/STV038.github.io-aktai/static/css/main.3c745985.chunk.css.map",
+    "static/css/main.078ab3f7.chunk.css.map": "/STV038.github.io-aktai/static/css/main.078ab3f7.chunk.css.map",
     "static/js/2.5ac33538.chunk.js.LICENSE.txt": "/STV038.github.io-aktai/static/js/2.5ac33538.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/STV038.github.io-aktai/static/media/anurati-regular.ada0eaa4.otf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.36126481.js",
     "static/css/2.2295ac45.chunk.css",
     "static/js/2.5ac33538.chunk.js",
-    "static/css/main.3c745985.chunk.css",
-    "static/js/main.3f3f2238.chunk.js"
+    "static/css/main.078ab3f7.chunk.css",
+    "static/js/main.55cc3781.chunk.js"
   ]
 }
