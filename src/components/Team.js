@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col, Card, CardTitle, CardText } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
 import '../assets/transition.scss';
@@ -42,47 +42,58 @@ const Team = () => {
             </Row>
             <Row className="justify-content-center text-center">
               <Col sm="12" lg="4">
-                <p className="mb-3">
-                  Aktai Ventures consists of experienced specialists
-                  from the finance, (technology) risk management and
-                  legal worlds in Europe.
+                <p className="mb-5">
+                  Aktai Ventures consists of specialists with
+                  extensive experience and capabilities in the fields
+                  of finance, audit, (information) risk management and
+                  regulatory compliance. We have serviced a broad
+                  range of clients ranging from large financial
+                  institutions and technology firms, to mid sized
+                  companies that service local communities. With our
+                  experience and network we want to contribute to the
+                  robustness and maturity of the digital asset space
+                  and help accelerate societal adoption of
+                  decentralized technologies.
                 </p>
               </Col>
             </Row>
             <Row className="justify-content-center text-center match-height">
-              <Col sm="12" lg="3" className="pt-3 pb-3">
-                <Card body>
-                  <CardTitle tag="h5">
-                    Finance & Investments
-                  </CardTitle>
-                  <CardText>
-                    FinRep, Accounting, Deals, M&A. Dutch CPA
-                    equivalent. Asset management.
-                  </CardText>
-                </Card>
+              <Col sm="12" lg="3" className="pt-3">
+                <h5>Finance</h5>
+                <hr className="new2" />
+                <p>
+                  Several years of experience in the worlds of
+                  finance, accounting & controlling and investments.
+                  Performed a wide array of financial advisory & (SOX
+                  / ICOFR) audit engagements for clients operating in
+                  the financial services, technology and corporate
+                  worlds. Deep understanding of corporate finance,
+                  investment management and accounting standards.
+                </p>
               </Col>
-              <Col sm="12" lg="3" className="pt-3 pb-3">
-                <Card body>
-                  <CardTitle tag="h5">Risk Management</CardTitle>
-                  <CardText>
-                    Governance, Risk and Compliance, SOX, Assurance
-                    reporting (SOC1/2, ISAE300/3402), IT auditing,
-                    Risk, Controls, Internal Governance, Frameworks,
-                    etc. Supported the professional association for IT
-                    auditors in designing blockchain & crypto audit
-                    approaches and lead of big 4 blockchain & crypto
-                    audit proposition.
-                  </CardText>
-                </Card>
+              <Col sm="12" lg="3" className="pt-3">
+                <h5>IT Risk Management</h5>
+                <hr className="new2" />
+                <p>
+                  Veterans in IT risk management with a deep
+                  understanding of internal controls, risks arising
+                  from the development and use of (emerging)
+                  technologies and (ISO, SOC & ISAE) assurance
+                  standards. Several years of experience in the
+                  design, implementation and assessment of IT control
+                  environments and frameworks. Contributors to
+                  professional associations in designing blockchain &
+                  crypto audit approaches.
+                </p>
               </Col>
-              <Col sm="12" lg="3" className="pt-3 pb-3">
-                <Card body>
-                  <CardTitle tag="h5">Legal</CardTitle>
-                  <CardText>
-                    Privacy, Contract law, PhD research, assistant
-                    lecturer University on IT and Law.
-                  </CardText>
-                </Card>
+              <Col sm="12" lg="3" className="pt-3">
+                <h5>Legal</h5>
+                <hr className="new2" />
+                <p>
+                  Comparative law, PhD research on contract law and
+                  smart contracts, assistant lecturer University on IT
+                  and Law, privacy proposition
+                </p>
               </Col>
             </Row>
           </div>

@@ -211,6 +211,42 @@ const Services = () => {
                 </Card>
               </Col>
             </Row>
+            <Row className="justify-content-center">
+              <Col sm="12" lg="4" className="pb-3">
+                <Card body>
+                  <CardTitle
+                    onClick={toggleResearch}
+                    tag="h5"
+                    className="expand-card"
+                  >
+                    <div>
+                      Looking to step into the world of digital assets
+                      and decentralized technologies
+                    </div>
+                    <FontAwesomeIcon icon={faChevronDown} id="icon" />
+                  </CardTitle>
+                  <Collapse isOpen={openResearch}>
+                    <CardText>
+                      The current world of decentralized technologies
+                      is very promising, but also opaque, new, chaotic
+                      and challenging to operate with. Many new
+                      blockchain networks are developed and released
+                      to the world, some very promising that are
+                      geared towards the estbalish of a new financial
+                      infrastructure. But navigating across these
+                      blockchains requires technological savyness and
+                      knowledge of the risks involved. Making mistakes
+                      can be costly and will be final. You need a
+                      navigator that does not only know how to operate
+                      on these new infrastructures and has experience
+                      in the crypto asset space, but is also familiar
+                      with topics surrounding financial management,
+                      risk management, regulation and compliance.
+                    </CardText>
+                  </Collapse>
+                </Card>
+              </Col>
+            </Row>
           </div>
         )}
       </Transition>

@@ -41,7 +41,7 @@ const Vision = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center">
-              <Col sm="12" lg="6">
+              <Col sm="12" lg="6" style={{ textAlign: 'center' }}>
                 <p>
                   2014 marked our introduction to the world of
                   Bitcoin. The concept of having a digital currency -
@@ -50,37 +50,47 @@ const Vision = () => {
                   (physical) goods on the internet was mind boggling
                   and exciting at the same time. As with all things
                   that are exciting, we dove into the world of Bitcoin
-                  and the broader crypto space and came to truly
-                  appreciate it's potential for society and financial
-                  systems.
+                  and the broader digital asset space and came to
+                  truly appreciate it's potential for society and
+                  financial systems. Throughout the following years
+                  that appreciation has turned into conviction, and
+                  has ultimately led to the foundation of Aktai
+                  Ventures:{' '}
+                  <strong>
+                    a firm dedicated to the adoption of decentralized
+                    technologies and make digital assets accessible to
+                    society.
+                  </strong>
                 </p>
                 <p>
-                  The recent rise of Decentralized Finance (DeFi)
-                  protocols substantiates that potential. DeFi aims to
-                  build a completely decentralized financial
-                  infrastructure on blockchain networks, thereby
-                  replacing centralized financial services that are
-                  traditionally offered only by financial
-                  institutions. With over $42B locked in DeFi
-                  products, it is increasingly apparent that DeFi will
-                  have a major impact on our current financial systems
-                  and significantly increase efficiency, transparancy
-                  and interoperability of financial services.
+                  Despite our conviction of the potential of this
+                  space, we also acknowledge that we are in the early
+                  stages of it. Like all emergent spaces, the digital
+                  asset space currently lacks the robustness and
+                  regulatory framework for widescale adoption.
+                  Governments are struggling to interpret and regulate
+                  this emerging space and the majority of
+                  organizations are reluctant to integrate
+                  decentralized technologies. As adoption increases,
+                  we believe that companies will increasingly expect
+                  proper risk management and governance and demand
+                  some degree of comfort (e.g. in the form of
+                  assurance) of over decentralized products. Crypto
+                  firms will need to look for assurance, embed
+                  effective risk & control management and show their
+                  products are secure and operating as intended
+                  (including the governance surrounding the product).
                 </p>
                 <p>
-                  To us, DeFi demonstrates that decentralized
-                  technologies are here to stay and that the products
-                  that are being developed on these technologies will
-                  completely change the way we think about (personal)
-                  finance and transacting with eachother. At the same
-                  time we understand that the digital asset space is
-                  an emergent one that is currently faced with a lack
-                  of regulation, maturity and robustness comparable to
-                  e.g. traditional finance. Governments are struggling
-                  to interpret and regulate this emerging space and to
-                  many actors - from individuals to financial
-                  institutions or organizations - lacks sufficient
-                  'skin in the game' in order to be adopted.
+                  At Aktai Ventures we offer a unique set of
+                  capabilities to help crypto startups in that regard.
+                  We are able to translate the concerns, needs and
+                  requirements of the regulators, investors and
+                  (institutional) clients to the decentralized
+                  technology space. At the same time we want to assist
+                  organizations that are looking to venture into the
+                  digital asset space or are looking to integrate
+                  decentralized technologies in their organization.
                 </p>
               </Col>
             </Row>
