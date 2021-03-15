@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Card, CardText, CardTitle } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
 import '../assets/transition.scss';
@@ -57,43 +57,47 @@ const Team = () => {
                 </p>
               </Col>
             </Row>
-            <Row className="justify-content-center text-center match-height">
+            <Row className="justify-content-center match-height">
               <Col sm="12" lg="3" className="pt-3">
-                <h5>Finance</h5>
-                <hr className="new2" />
-                <p>
-                  Several years of experience in the worlds of
-                  finance, accounting & controlling and investments.
-                  Performed a wide array of financial advisory & (SOX
-                  / ICOFR) audit engagements for clients operating in
-                  the financial services, technology and corporate
-                  worlds. Deep understanding of corporate finance,
-                  investment management and accounting standards.
-                </p>
+                <Card body>
+                  <CardTitle tag="h5">Finance</CardTitle>
+                  <CardText>
+                    Several years of experience in the worlds of
+                    finance, accounting & controlling and investments.
+                    Performed a wide array of financial advisory &
+                    (SOX / ICOFR) audit engagements for clients
+                    operating in the financial services, technology
+                    and corporate worlds. Deep understanding of
+                    corporate finance, investment management and
+                    accounting standards.
+                  </CardText>
+                </Card>
+              </Col>
+              <Col sm="12" md="12" lg="3" className="pt-3">
+                <Card body>
+                  <CardTitle tag="h5">IT Risk Management</CardTitle>
+                  <CardText>
+                    Veterans in IT risk management with a deep
+                    understanding of internal controls, risks arising
+                    from the development and use of (emerging)
+                    technologies and (ISO, SOC & ISAE) assurance
+                    standards. Several years of experience in the
+                    design, implementation and assessment of IT
+                    control environments and frameworks. Contributors
+                    to professional associations in designing
+                    blockchain & crypto audit approaches.
+                  </CardText>
+                </Card>
               </Col>
               <Col sm="12" lg="3" className="pt-3">
-                <h5>IT Risk Management</h5>
-                <hr className="new2" />
-                <p>
-                  Veterans in IT risk management with a deep
-                  understanding of internal controls, risks arising
-                  from the development and use of (emerging)
-                  technologies and (ISO, SOC & ISAE) assurance
-                  standards. Several years of experience in the
-                  design, implementation and assessment of IT control
-                  environments and frameworks. Contributors to
-                  professional associations in designing blockchain &
-                  crypto audit approaches.
-                </p>
-              </Col>
-              <Col sm="12" lg="3" className="pt-3">
-                <h5>Legal</h5>
-                <hr className="new2" />
-                <p>
-                  Comparative law, PhD research on contract law and
-                  smart contracts, assistant lecturer University on IT
-                  and Law, privacy proposition
-                </p>
+                <Card body>
+                  <CardTitle tag="h5">Legal</CardTitle>
+                  <CardText>
+                    Comparative law, PhD research on contract law and
+                    smart contracts, assistant lecturer University on
+                    IT and Law, privacy proposition
+                  </CardText>
+                </Card>
               </Col>
             </Row>
           </div>
