@@ -39,6 +39,8 @@
   width: 50%;
 }
 
+
+
 .new2 {
   border-top: 2px solid #c2c2c2;
   width: 70%;
@@ -71,7 +73,7 @@ ul {
   // padding-inline-start: 2rem;
 }
 
-li {
+.li-circle {
   list-style-type: circle;
   margin-bottom: 1rem;
 }
@@ -103,9 +105,9 @@ li {
 // }
 
 @media (min-width: 768px) {
-  ul {
-    // padding-inline-end: 10rem;
-  }
+  // ul {
+  //   // padding-inline-end: 10rem;
+  // }
 }
 
 .content-position {

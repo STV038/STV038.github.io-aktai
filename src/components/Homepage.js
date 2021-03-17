@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 import Particles from './Particles';
 
@@ -50,11 +50,13 @@ const Homepage = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center">
-              <p className=" subtext">
-                Contributing to the development and integration of
-                decentralized technologies in society and current
-                financial systems
-              </p>
+              <Col sm="10" md="10" lg="4">
+                <p className="text-center">
+                  Contributing to the development and integration of
+                  decentralized technologies in society and current
+                  financial systems
+                </p>
+              </Col>
             </Row>
             <Row className="justify-content-center">
               <Particles />

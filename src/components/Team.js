@@ -41,7 +41,7 @@ const Team = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center text-center">
-              <Col sm="12" lg="4">
+              <Col sm="10" md="10" lg="5">
                 <p className="mb-5">
                   Aktai Ventures consists of specialists with
                   extensive experience and capabilities in the fields
@@ -58,7 +58,13 @@ const Team = () => {
               </Col>
             </Row>
             <Row className="justify-content-center match-height">
-              <Col sm="12" lg="3" className="pt-3">
+              <Col
+                sm="10"
+                md="10"
+                lg="10"
+                xl="3"
+                className="pt-3 pb-5"
+              >
                 <Card body>
                   <CardTitle tag="h5">Finance</CardTitle>
                   <CardText>
@@ -73,7 +79,13 @@ const Team = () => {
                   </CardText>
                 </Card>
               </Col>
-              <Col sm="12" md="12" lg="3" className="pt-3">
+              <Col
+                sm="10"
+                md="10"
+                lg="10"
+                xl="3"
+                className="pt-3 pb-5"
+              >
                 <Card body>
                   <CardTitle tag="h5">IT Risk Management</CardTitle>
                   <CardText>
@@ -89,7 +101,13 @@ const Team = () => {
                   </CardText>
                 </Card>
               </Col>
-              <Col sm="12" lg="3" className="pt-3">
+              <Col
+                sm="10"
+                md="10"
+                lg="10"
+                xl="3"
+                className="pt-3 pb-5"
+              >
                 <Card body>
                   <CardTitle tag="h5">Legal</CardTitle>
                   <CardText>

@@ -40,8 +40,8 @@ const Vision = () => {
             <Row className="mb-5">
               <hr className="new1" />
             </Row>
-            <Row className="justify-content-center">
-              <Col sm="12" lg="6" style={{ textAlign: 'center' }}>
+            <Row className="justify-content-center text-center pb-5">
+              <Col sm="10" md="10" lg="6">
                 <p>
                   2014 marked our introduction to the world of
                   Bitcoin. The concept of having a digital currency -
@@ -88,7 +88,7 @@ const Vision = () => {
                   requirements of the regulators, investors and
                   (institutional) clients to the decentralized
                   technology space. At the same time we want to assist
-                  organizations that are looking to venture into the
+                  organizations to comfortably venture into the
                   digital asset space or are looking to integrate
                   decentralized technologies in their organization.
                 </p>
