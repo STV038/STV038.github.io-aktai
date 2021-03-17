@@ -161,15 +161,18 @@ const Services = () => {
                       Governments are struggling to interpret the
                       implications of this space, which means that
                       regulations surrounding the use of decentralized
-                      technologies is still developing. Operating in
-                      such a world comes with multiple challenges, as
-                      future regulation might impact your business or
-                      governance model. We can help you face these
-                      challenges so that you may comply with current
-                      and future regulations and demonstrate the
-                      implementation of best practices to regulatory
-                      bodies, investors and clients. We can help you
-                      with the following topics:
+                      technologies is still developing. Investors and
+                      users are increasingly requesting crypto
+                      startups to demonstrate proper governance and
+                      internal controlsOperating in such a world comes
+                      with multiple challenges, as future regulation
+                      might impact your business or governance model.
+                      We can help you face these challenges so that
+                      you may comply with current and future
+                      regulations and demonstrate the implementation
+                      of best practices to regulatory bodies,
+                      investors and clients. We can help you with the
+                      following topics:
                       <ul>
                         {/* hier moet je classname li-circle aantoeveogen! */}
                         <li>

@@ -39,8 +39,6 @@
   width: 50%;
 }
 
-
-
 .new2 {
   border-top: 2px solid #c2c2c2;
   width: 70%;
@@ -71,6 +69,10 @@ h4 {
 ul {
   margin-block-start: 1rem;
   // padding-inline-start: 2rem;
+}
+
+.text-align-start {
+  text-align: start !important;
 }
 
 .li-circle {
