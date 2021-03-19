@@ -43,54 +43,56 @@ const Vision = () => {
             <Row className="justify-content-center text-center pb-5">
               <Col sm="10" md="10" lg="6">
                 <p>
-                  2014 marked our introduction to the world of
+                  In 2014 we were was first introduced to the world of
                   Bitcoin. The concept of having a digital currency -
-                  absent of any physicial backing in the traditional
-                  sense of currencies - and use that currency to buy
-                  (physical) goods on the internet was mind boggling
-                  and exciting at the same time. As with all things
-                  that are exciting, we dove into the world of Bitcoin
-                  and the broader digital asset space and came to
-                  truly appreciate it's potential for society and
+                  absent of any physical backing in the traditional
+                  sense of currencies - and being able to use that
+                  currency to buy (physical) goods on the internet was
+                  mind boggling and exciting at the same time. As with
+                  all things that are exciting, we dove into the world
+                  of Bitcoin and the broader crypto space and came to
+                  truly appreciate its potential for society and
                   financial systems. Throughout the following years
                   that appreciation has turned into conviction, and
-                  has ultimately led to the foundation of Aktai
+                  has ultimately led to the founding of Aktai
                   Ventures:{' '}
                   <strong>
-                    a firm dedicated to the adoption of decentralized
-                    technologies and make digital assets accessible to
-                    society.
+                    a collaboration dedicated to supporting the
+                    adoption of decentralized technologies and making
+                    decentralized technologies accessible to society.
                   </strong>
                 </p>
                 <p>
-                  Despite our conviction of the potential of this
-                  space, we also acknowledge that we are in the early
-                  stages of it. Like all emergent spaces, the digital
-                  asset space currently lacks the robustness and
-                  regulatory framework for widescale adoption.
-                  Governments are struggling to interpret and regulate
-                  this emerging space and the majority of
-                  organizations are reluctant to integrate
-                  decentralized technologies. As adoption increases,
-                  we believe that companies will increasingly expect
-                  proper risk management and governance and demand
-                  some degree of comfort (e.g. in the form of
-                  assurance) of over decentralized products. Crypto
-                  firms will need to look for assurance, embed
-                  effective risk & control management and show their
-                  products are secure and operating as intended
+                  Whilst we are convinced of the enormous potential of
+                  the technology, it should be acknowledged that we
+                  are in the early stages of it. Like all emergent
+                  spaces, the crypto space currently lacks the
+                  robustness and regulatory framework for wide scale
+                  adoption. Governments are struggling to understand,
+                  interpret and regulate this emerging space and the
+                  majority of organizations are reluctant to integrate
+                  decentralized technologies due to the uncertainty
+                  that this creates. As adoption increases, we believe
+                  that regulators, investors and users will
+                  increasingly expect proper risk management and
+                  governance and look for some degree of comfort over
+                  decentralized technologies. Organizations operating
+                  in this space will need to look for assurance, embed
+                  effective risk & control management and show that
+                  their products are secure and operating as intended
                   (including the governance surrounding the product).
                 </p>
                 <p>
                   At Aktai Ventures we offer a unique set of
-                  capabilities to help crypto startups in that regard.
-                  We are able to translate the concerns, needs and
-                  requirements of the regulators, investors and
-                  (institutional) clients to the decentralized
-                  technology space. At the same time we want to assist
-                  organizations to comfortably venture into the
-                  digital asset space or are looking to integrate
-                  decentralized technologies in their organization.
+                  experience and capabilities to help these
+                  organizations in that regard. We are able to
+                  translate the concerns, needs and requirements of
+                  the regulators, investors and (institutional)
+                  clients to the decentralized technology space. At
+                  the same time we want to assist organizations to
+                  comfortably advance into the crypto space or are
+                  looking to integrate decentralized technologies in
+                  their organization.
                 </p>
               </Col>
             </Row>

@@ -13,6 +13,17 @@
   color: #b4b7bd;
 }
 
+.services-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  cursor: default;
+  text-align: start;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
 #tsparticles {
   position: absolute;
   top: 55%;
@@ -37,6 +48,13 @@
 .new1 {
   border-top: 2px solid #c2c2c2;
   width: 50%;
+  border-color: #39a4b5;
+}
+
+.vertical-lign {
+  border-left: 2px solid #39a4b5;
+  height: 60%;
+  border-color: #39a4b5;
 }
 
 .new2 {
@@ -78,6 +96,7 @@ ul {
 .li-circle {
   list-style-type: circle;
   margin-bottom: 1rem;
+  text-align: start;
 }
 
 .aktai-title {

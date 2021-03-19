@@ -17,7 +17,7 @@ import { faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
 import { faEthereum } from '@fortawesome/free-brands-svg-icons';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-// import Tabs from './services/Tabs';
+import Build from './services/Build';
 
 import '../assets/transition.scss';
 
@@ -71,112 +71,67 @@ const Services = () => {
               <hr className="new1" />
             </Row>
             <Row className="justify-content-center text-center">
-              <Col sm="10" md="10" lg="3">
+              <Col sm="10" md="10" lg="4">
                 <p className="mb-3">
-                  Whether you are already active in the crypto space
-                  or looking to step into it, we can help you navigate
-                  though the technological and regulatory challenges
-                  add comfort to that journey by leveraging our
-                  expertise and help you grow (crypto) or onboard
-                  decentralized technologies into your organization.
+                  Whether you are already active in the crypto space,
+                  looking to invest in it, or wanting to integrate
+                  decentralized technologies into your organization;
+                  we can help you navigate through the technological
+                  and regulatory complexities.
                 </p>
+                {/* By leveraging our
+                  expertise we can help you make your decentralized
+                  journey strengthen your and add comfort to that
+                  journey by leveraging our expertise and help you
+                  grow (crypto) or onboard decentralized technologies
+                  into your organization. */}
               </Col>
             </Row>
-            <Row className="justify-content-center text-center match-height pt-5">
-              <Col sm="10" md="10" lg="6" xl="6" className="mb-3">
+            <Row className="justify-content-around text-center match-height pt-5">
+              <Col sm="10" md="10" lg="3" xl="3" className="mb-5">
                 <Card body>
-                  <CardTitle className="pb-4">
+                  <CardTitle>
                     <FontAwesomeIcon
                       icon={faEthereum}
                       size="7x"
                       id="icon"
                     />
-                  </CardTitle>
-                  <CardTitle tag="h4">Build</CardTitle>
-                  <CardText>
+                    <h4 className="pt-4">Build / Already active</h4>
                     <p>
                       This is a wider card with supporting text below
                       as a natural lead-in to additional content. This
                       content is a little bit longer.
                     </p>
-                    <div className="text-align-start">
-                      <h5 onClick={toggleLegal} className="pb-3">
-                        Legal
-                        {openLegal === true ? (
-                          <div>
-                            <span>
-                              <FontAwesomeIcon
-                                icon={faChevronUp}
-                                id="icon"
-                                className="ml-5"
-                              />{' '}
-                              <small>expand</small>
-                            </span>
-                          </div>
-                        ) : (
-                          <FontAwesomeIcon
-                            icon={faChevronDown}
-                            id="icon"
-                            className="ml-5"
-                          />
-                        )}
-                      </h5>
-                      <Collapse isOpen={openLegal}>
-                        <div>
-                          <li className="li-circle">
-                            Identifying legal risks and help you
-                            address these
-                          </li>
-                          <li className="li-circle">
-                            Identify and help obtain regulatory
-                            licences
-                          </li>
-                          <li className="li-circle">
-                            Design and implement best practices to
-                            meet regulatory compliance.
-                          </li>
-                        </div>
-                      </Collapse>
-                    </div>
+                  </CardTitle>
+                  <CardText>
+                    <Build />
                   </CardText>
                 </Card>
               </Col>
-            </Row>
-            <Row className="justify-content-center text-center match-height pt-5">
-              <Col sm="10" md="10" lg="6" xl="6" className="mb-3">
-                <Card body>
-                  <CardTitle className="pb-4">
-                    <FontAwesomeIcon
-                      icon={faCommentsDollar}
-                      size="7x"
-                      id="icon"
-                    />
-                  </CardTitle>
-                  <CardTitle tag="h4">Enter</CardTitle>
-                  <CardText>
-                    (e.g. governmental bodies, corporation, financial
-                    institutions)
-                  </CardText>
-                </Card>
+              <Col sm="10" md="10" lg="3" xl="3" className="mb-5">
+                <FontAwesomeIcon
+                  icon={faCommentsDollar}
+                  size="7x"
+                  id="icon"
+                />
+                <h4 className="pt-4">Enter</h4>
+                <p>
+                  (e.g. governmental bodies, corporation, financial
+                  institutions)
+                </p>
               </Col>
-            </Row>
-            <Row className="justify-content-center text-center match-height pt-5">
-              <Col sm="10" md="10" lg="6" xl="6" className="mb-5">
-                <Card body>
-                  <CardTitle className="pb-4">
-                    <FontAwesomeIcon
-                      icon={faSyncAlt}
-                      size="7x"
-                      id="icon"
-                    />
-                  </CardTitle>
-                  <CardTitle tag="h4">Integrate</CardTitle>
-                  <CardText>
-                    This is a wider card with supporting text below as
-                    a natural lead-in to additional content. This
-                    content is a little bit longer.
-                  </CardText>
-                </Card>
+              <Col sm="10" md="10" lg="3" xl="3" className="mb-5">
+                <FontAwesomeIcon
+                  icon={faSyncAlt}
+                  size="7x"
+                  id="icon"
+                />
+                <h4 className="pt-4">Integrate</h4>
+                <p>
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content
+                  is a little bit longer.
+                </p>
               </Col>
             </Row>
           </div>

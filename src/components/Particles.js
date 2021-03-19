@@ -43,10 +43,11 @@ class ParticlesApp extends React.Component {
           },
           particles: {
             color: {
-              value: '#ffffff',
+              // value: '#ffffff',
+              value: '#39a4b5',
             },
             links: {
-              color: '#ffffff',
+              color: '#39a4b5',
               distance: 150,
               enable: true,
               opacity: 0.5,

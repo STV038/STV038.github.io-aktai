@@ -68,7 +68,7 @@ const Team = () => {
                 <Card body>
                   <CardTitle tag="h5">Finance</CardTitle>
                   <CardText>
-                    Several years of experience in the worlds of
+                    Multiple years of experience in the worlds of
                     finance, accounting & controlling and investments.
                     Performed a wide array of financial advisory &
                     (SOX / ICOFR) audit engagements for clients
@@ -93,11 +93,12 @@ const Team = () => {
                     understanding of internal controls, risks arising
                     from the development and use of (emerging)
                     technologies and (ISO, SOC & ISAE) assurance
-                    standards. Several years of experience in the
+                    standards. Multiple years of experience in the
                     design, implementation and assessment of IT
                     control environments and frameworks. Contributors
                     to professional associations in designing
-                    blockchain & crypto audit approaches.
+                    blockchain & crypto audit standards and
+                    approaches.
                   </CardText>
                 </Card>
               </Col>
@@ -109,11 +110,15 @@ const Team = () => {
                 className="pt-3 pb-5"
               >
                 <Card body>
-                  <CardTitle tag="h5">Legal</CardTitle>
+                  <CardTitle tag="h5">
+                    Regulatory Compliance & Legal
+                  </CardTitle>
                   <CardText>
-                    Comparative law, PhD research on contract law and
-                    smart contracts, assistant lecturer University on
-                    IT and Law, privacy proposition
+                    Deep understanding of the manner in which
+                    technology and business are intertwined. Assisted
+                    both startups and large international corporates
+                    adopt their IT landscape and business processes to
+                    a changing legal horizon.
                   </CardText>
                 </Card>
               </Col>
