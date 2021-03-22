@@ -10,7 +10,7 @@
 }
 
 #icon {
-  color: #b4b7bd;
+  color: #39a4b5;
 }
 
 .services-collapse {
@@ -93,10 +93,30 @@ ul {
   text-align: start !important;
 }
 
+.services-list {
+  font-style: italic;
+}
+
+// .service-titles {
+//   border-bottom: solid 2px #39a4b5;
+// }
+
+@media (min-width: 768px) {
+  .services-row {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+}
+
 .li-circle {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-bottom: 1rem;
   text-align: start;
+}
+
+li::marker {
+  color: #39a4b5 !important;
+  font-size: 20px;
 }
 
 .aktai-title {

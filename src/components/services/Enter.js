@@ -7,25 +7,25 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 import './styles.scss';
 
-const Build = () => {
-  const [openBuild1, setOpenBuild1] = useState(false);
-  const toggleBuild1 = () => setOpenBuild1(!openBuild1);
+const Enter = () => {
+  const [openEnter1, setOpenEnter1] = useState(false);
+  const toggleEnter1 = () => setOpenEnter1(!openEnter1);
 
-  const [openBuild2, setOpenBuild2] = useState(false);
-  const toggleBuild2 = () => setOpenBuild2(!openBuild2);
+  const [openEnter2, setOpenEnter2] = useState(false);
+  const toggleEnter2 = () => setOpenEnter2(!openEnter2);
 
-  const [openBuild3, setOpenBuild3] = useState(false);
-  const toggleBuild3 = () => setOpenBuild3(!openBuild3);
+  const [openEnter3, setOpenEnter3] = useState(false);
+  const toggleEnter3 = () => setOpenEnter3(!openEnter3);
 
   return (
     <React.Fragment>
       <div className="pt-3 pb-5">
         <div
-          onClick={toggleBuild3}
+          onClick={toggleEnter3}
           className="services-collapse justify-content-between service-titles"
         >
-          <h6>Governance & Information Risk Management</h6>
-          {openBuild3 === true ? (
+          <h6>Due Diligence</h6>
+          {openEnter3 === true ? (
             <div className="services-collapse">
               <p className="h-50">
                 <small>collapse</small>
@@ -49,7 +49,7 @@ const Build = () => {
             </div>
           )}
         </div>
-        <Collapse isOpen={openBuild3}>
+        <Collapse isOpen={openEnter3}>
           <div>
             <p className="text-left">
               <ul className="services-list">
@@ -75,11 +75,11 @@ const Build = () => {
       </div>
       <div className="pb-5">
         <div
-          onClick={toggleBuild1}
+          onClick={toggleEnter1}
           className="services-collapse justify-content-between service-titles"
         >
-          <h6>SOC / ISAE Assurance / ISO readiness</h6>
-          {openBuild1 === true ? (
+          <h6>Risk assessment</h6>
+          {openEnter1 === true ? (
             <div className="services-collapse">
               <p className="h-50">
                 <small>collapse</small>
@@ -103,7 +103,7 @@ const Build = () => {
             </div>
           )}
         </div>
-        <Collapse isOpen={openBuild1}>
+        <Collapse isOpen={openEnter1}>
           <div>
             <p className="text-left">
               <ul className="services-list">
@@ -128,13 +128,13 @@ const Build = () => {
           </div>
         </Collapse>
       </div>
-      <div className="pb-5">
+      {/* <div className="pb-5">
         <div
-          onClick={toggleBuild2}
+          onClick={toggleEnter2}
           className="services-collapse justify-content-between service-titles"
         >
           <h6>Regulatory compliance</h6>
-          {openBuild2 === true ? (
+          {openEnter2 === true ? (
             <div className="services-collapse">
               <p className="h-50">
                 <small>collapse</small>
@@ -158,7 +158,7 @@ const Build = () => {
             </div>
           )}
         </div>
-        <Collapse isOpen={openBuild2}>
+        <Collapse isOpen={openEnter2}>
           <div>
             <p className="text-left">
               <ul className="services-list">
@@ -179,9 +179,9 @@ const Build = () => {
             </p>
           </div>
         </Collapse>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };
 
-export default Build;
+export default Enter;
