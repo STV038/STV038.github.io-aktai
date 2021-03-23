@@ -54,19 +54,24 @@ const Enter = () => {
             <p className="text-left">
               <ul className="services-list">
                 <li className="li-circle">
-                  Based on your product features, design, architecture
-                  and governance, identify and assess the key risks
-                  that are relevant for your customers and other
-                  stakeholders (e.g. investors or regulators)
+                  Perform due diligence on a crypto project, where we
+                  will conduct an in-depth assessment of the project.
+                  We are not only able to look at the product itself,
+                  but also to perform a thorough assessment of it's
+                  governance strategy, tokenenomics, wallet &
+                  transaction analytics, and an analysis of it's
+                  ecosystem.
                 </li>
                 <li className="li-circle">
-                  Define and implement GRC processes and control
-                  objectives to mitigate the risks associated with
-                  your product
-                </li>
-                <li className="li-circle">
-                  Review of your governance model, security and
-                  controls in place
+                  Perform a risk assessment of decentralized products.
+                  We can help you identify and assess the risks
+                  associated with either investing in or using a
+                  particular decentralized app / blockchain network.
+                  We will perform a deepdive on the underlying
+                  technology, the team and governance surrounding the
+                  product, assess and interpret smart contract audit
+                  reports, and help you understand the risks that are
+                  involved in interacting with the applicable product.
                 </li>
               </ul>
             </p>
@@ -78,7 +83,7 @@ const Enter = () => {
           onClick={toggleEnter1}
           className="services-collapse justify-content-between service-titles"
         >
-          <h6>Risk assessment</h6>
+          <h6>Market entry / strategy</h6>
           {openEnter1 === true ? (
             <div className="services-collapse">
               <p className="h-50">
@@ -108,20 +113,15 @@ const Enter = () => {
             <p className="text-left">
               <ul className="services-list">
                 <li className="li-circle">
-                  Risk assessment: focus on the identification,
-                  assessment and management of the risks that are
-                  relevant for you and your stakeholders (i.e. the
-                  users of your assurance report / certification).
+                  Help you understand the cryto asset space and
+                  introduce you to the different investment strategies
+                  you might employ.
                 </li>
                 <li className="li-circle">
-                  Readiness of attestation: based on the type of
-                  attestation (e.g. ISO27001, SOC2, ISAE3000), perform
-                  a review of your risk and control framework and help
-                  draft of system description.
-                </li>
-                <li className="li-circle">
-                  Design and implement best practices to meet
-                  regulatory compliance.
+                  Provide a throrough analysis of the current crypto
+                  space, it's ecosystem and the regulatory
+                  developments that might impact the direction that
+                  this space is heading.
                 </li>
               </ul>
             </p>

@@ -119,10 +119,6 @@ const Build = () => {
                   a review of your risk and control framework and help
                   draft of system description.
                 </li>
-                <li className="li-circle">
-                  Design and implement best practices to meet
-                  regulatory compliance.
-                </li>
               </ul>
             </p>
           </div>
