@@ -92,7 +92,7 @@ const Services = () => {
               </Col>
             </Row>
             <Row className="justify-content-around text-center services-row match-height pt-5">
-              <Col sm="10" md="10" lg="3" xl="4" className="mb-5">
+              <Col sm="10" md="10" lg="6" xl="7" className="mb-5">
                 <Card body>
                   <CardTitle>
                     <FontAwesomeIcon
@@ -144,7 +144,9 @@ const Services = () => {
                   </CardText>
                 </Card>
               </Col>
-              <Col sm="10" md="10" lg="3" xl="4" className="mb-5">
+            </Row>
+            <Row className="justify-content-around text-center services-row match-height pt-5">
+              <Col sm="10" md="10" lg="6" xl="7" className="mb-5">
                 <Card body>
                   <CardTitle>
                     <FontAwesomeIcon
@@ -191,7 +193,7 @@ const Services = () => {
                   </CardText>
                 </Card>
               </Col>
-              <Col sm="10" md="10" lg="3" xl="4" className="mb-5">
+              {/* <Col sm="10" md="10" lg="3" xl="4" className="mb-5">
                 <Card body>
                   <CardTitle>
                     <FontAwesomeIcon
@@ -214,7 +216,7 @@ const Services = () => {
                     </p>
                   </CardTitle>
                 </Card>
-              </Col>
+              </Col> */}
             </Row>
           </div>
         )}

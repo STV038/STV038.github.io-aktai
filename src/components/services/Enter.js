@@ -128,12 +128,12 @@ const Enter = () => {
           </div>
         </Collapse>
       </div>
-      {/* <div className="pb-5">
+      <div className="pb-5">
         <div
           onClick={toggleEnter2}
           className="services-collapse justify-content-between service-titles"
         >
-          <h6>Regulatory compliance</h6>
+          <h6>Business integration</h6>
           {openEnter2 === true ? (
             <div className="services-collapse">
               <p className="h-50">
@@ -161,25 +161,38 @@ const Enter = () => {
         <Collapse isOpen={openEnter2}>
           <div>
             <p className="text-left">
+              We understand the risks arising from the application and
+              integration of decentalized technologies into (existing)
+              organizational processes and your balance sheet. From
+              transacting on DeFi protocols to the acquisition of
+              crypto assets such as Bitcoin or Ethereum. We can
+              leverage our expertise in helping you identify and
+              assess the opportunities that decentralized technologies
+              may introduce to your organization; to optimize the use
+              of decentralized technologies in your organization,
+              whilst taking into account the risks associated with
+              these technologies and design effective risk management
+              measures.
               <ul className="services-list">
                 <li className="li-circle">
-                  Design and implement KYC / CDD processes
+                  Integrating decentralized technologies in your
+                  organisation
                 </li>
                 <li className="li-circle">
-                  Identifying legal risks and help you address these
+                  How to get capital exposure to crypto assets and
+                  update your accounting and financial reporting
+                  processes to consider these new assets.
                 </li>
                 <li className="li-circle">
-                  Identify and help obtain regulatory licences
-                </li>
-                <li className="li-circle">
-                  Design and implement best practices to meet
-                  regulatory compliance.
+                  Support you in assessing the feasibility of
+                  decentralized technologies for your organization and
+                  developing / implementing these technologies.
                 </li>
               </ul>
             </p>
           </div>
         </Collapse>
-      </div> */}
+      </div>
     </React.Fragment>
   );
 };
