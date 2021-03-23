@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import Particles from 'react-tsparticles';
 
 class ParticlesApp extends React.Component {

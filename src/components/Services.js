@@ -1,25 +1,13 @@
 import * as React from 'react';
-import { useState } from 'react';
-import {
-  Row,
-  Col,
-  Card,
-  CardTitle,
-  CardText,
-  Collapse,
-} from 'reactstrap';
+
+import { Row, Col, Card, CardTitle, CardText } from 'reactstrap';
 import { Transition } from 'react-transition-group';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import {
-  faSyncAlt,
-  faDoorOpen,
-} from '@fortawesome/free-solid-svg-icons';
-import { faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
+import { faDoorOpen } from '@fortawesome/free-solid-svg-icons';
 import { faEthereum } from '@fortawesome/free-brands-svg-icons';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+
 import Build from './services/Build';
 import Enter from './services/Enter';
 
@@ -47,9 +35,6 @@ const transitionStyles = {
 //advisory.kpmg.us/services/risk-assurance/it-audit-assurance.html
 
 const Services = () => {
-  const [openLegal, setOpenLegal] = useState(false);
-  const toggleLegal = () => setOpenLegal(!openLegal);
-
   // developing decentralized technologies and products
   // active in crypto space
   // looking to operate or invest in decentralized technologies
